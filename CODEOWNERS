@@ -1,0 +1,27 @@
+# ===============================
+# SARA Flow Governance CODEOWNERS
+# ===============================
+
+# Protocol layer — highest authority
+/protocol/          @founder @governance-core
+
+# Governance & risk
+/GOVERNANCE.md      @founder
+/SECURITY.md        @founder
+/ops/               @founder @governance-core
+
+# Product & acceptance gates
+/product/           @product-lead @governance-core
+
+# Design system
+/design/            @design-lead
+
+# Engineering implementation
+/engineering/       @tech-lead
+
+# Dashboard metrics & interpretation
+/dashboard/         @governance-core
+
+# Demo and presentation (lowest authority)
+/demo/              @product-lead
+/docs/              @product-lead
